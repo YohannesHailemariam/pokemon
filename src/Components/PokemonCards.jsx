@@ -36,8 +36,8 @@ const PokemonCards = () => {
             placeholder="Search Pokémon..." 
             value={searchTerm}
             onChange={handleSearch}
-            className="mb-4 w-[300px] p-2 border border-gray-300 rounded-lg"
-        />
+            className="relative mb-4 w-[300px] p-2 border border-gray-300 rounded-lg"
+        /> 
       </div>
       <div className="grid grid-cols-1 place-items-center sm:grid-cols-2 lg:ml-[10px] lg:grid-cols-4 gap-4">
         {filteredPokemon.map((item, index) => (
